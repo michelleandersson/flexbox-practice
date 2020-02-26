@@ -186,5 +186,25 @@
     margin-top: 20px;
     margin-left: 20px;
 }
+.square-two {
+    width: 273px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #15132B;
+}
+
+.square-two__circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #90ADDA;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
 
 
