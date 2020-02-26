@@ -158,4 +158,33 @@
     flex:2; 
 }
 
+.layout-two {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    background-color: #5F6897;
+}
+
+.square-one {
+    width: 273px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #15132B;
+}
+
+.square-one__circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #90ADDA;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 
