@@ -215,7 +215,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-content: space-between;
     background-color: #15132B;
 }
 
@@ -227,6 +227,7 @@
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .square-four {
@@ -237,7 +238,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-content: space-around;
     background-color: #15132B;
 }
 
@@ -246,7 +247,7 @@
     height: 50px;
     border-radius: 50%;
     background-color: #90ADDA;
-    margin-top: 20px;
+    
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -259,7 +260,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     background-color: #15132B;
 }
 
@@ -269,5 +270,6 @@
     border-radius: 50%;
     background-color: #90ADDA;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
